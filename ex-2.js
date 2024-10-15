@@ -12,4 +12,4 @@ let getJohnProfile = () => {
   });
 };
 
-// Start coding here
+getJohnProfile().catch((result) => console.log(result));
